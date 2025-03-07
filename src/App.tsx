@@ -10,7 +10,6 @@ function App() {
   return (
     <>
       <TemplateDemo />
-      <h1 className=''>Hola </h1>
     </>
   )
 }
