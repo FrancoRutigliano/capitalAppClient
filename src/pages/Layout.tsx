@@ -1,18 +1,22 @@
 import { Menubar } from "primereact/menubar";
 import { MenuItem } from "primereact/menuitem";
-import { Outlet } from "react-router-dom";
+import { Outlet, useNavigate } from "react-router-dom";
 
 export const Layout = () => {
+
+  const navigate = useNavigate();
 
   const items: MenuItem[] = [
     {
       label: 'Inicio',
-      icon: 'pi pi-home'
+      icon: 'pi pi-home',
+      command: () => navigate('/')
     },
-    {
-      label: 'Contacto',
-      icon: 'pi pi-users'
-    },
+    // {
+    //   label: 'Contacto',
+    //   icon: 'pi pi-users',
+    //   command: ()=> navigate('/contacto')
+    // },
 
   ];
 
@@ -20,10 +24,8 @@ export const Layout = () => {
 
   return (
     <>
-      <div className="">
-        <Menubar model={items} />
-      </div>
-      <Outlet /> 
+      <Menubar model={items} />
+      <Outlet />
 
     </>
   )
