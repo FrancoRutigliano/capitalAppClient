@@ -26,13 +26,13 @@ export default function BasicDemo() {
 
             <div className="flex justify-between surface-0 text-800">
                 <div className="  p-6 text-center md:text-left flex align-items-center ">
-                    <section>
-                        <span className="block text-6xl font-bold mb-1">Create the screens</span>
-                        <div className="text-6xl text-primary font-bold mb-3">your visitors deserve to see</div>
-                        <p className="mt-0 mb-4 text-700 line-height-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <section className='place-content-center'>
+                        <span className="block text-6xl font-bold mb-1">Take charge </span>
+                        <div className="text-6xl text-primary font-bold mb-3">of your financial future today</div>
+                        <p className="mt-0 mb-4 text-700 line-height-3">Track your income, manage expenses, and build a secure financial plan that helps you achieve your goals effortlessly.</p>
 
-                        <Button label="Learn More" type="button" className="mr-3 p-button-raised" />
-                        <Button label="Live Demo" type="button" className="p-button-outlined" />
+                        <Button label="Login" type="button"  className="min-w-[200px] p-button-raised" />
+                        <Button label="Register" type="button" outlined className=" " style={{marginLeft: "1rem"}}/>
                     </section>
                 </div>
                 <div className="  overflow-hidden">
