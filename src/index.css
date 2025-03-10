@@ -5,8 +5,8 @@
 
 /* import "primereact/resources/themes/md-dark-indigo/theme.css" */
 /* IMPORTANT: In "styled" mode you must add the PrimeReact Theme here. Do NOT include in "unstyled" mode */
-/* @import 'primereact/resources/themes/lara-light-blue/theme.css' layer(primereact); */
-@import 'primereact/resources/themes/lara-dark-blue/theme.css' layer(primereact);
+@import 'primereact/resources/themes/lara-light-blue/theme.css' layer(primereact);
+/* @import 'primereact/resources/themes/lara-dark-blue/theme.css' layer(primereact); */
 
 
 /* primereact/resources/themes/lara-dark-blue/theme.css */
