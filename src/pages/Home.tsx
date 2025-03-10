@@ -9,7 +9,7 @@ export const Home = () => {
 
   return (
    <>
-     <div className="flex flex-col-reverse justify-between surface-0 text-800 animated fadeIn">
+     <div className="flex flex-col-reverse sm:flex-row justify-between surface-0 text-800 animated fadeIn">
                 <div className=" px-3 sm:p-6 text-center md:text-left flex align-items-center ">
                     <section className='place-content-center'>
 
